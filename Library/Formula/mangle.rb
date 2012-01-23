@@ -22,6 +22,8 @@ class Mangle < Formula
 
   def caveats; <<-EOS
       You need python2.7 in your system in order for this to work.
+      If you're running a version of OSX older than 10.7 you'll need to install
+      it someway.
 EOS
   end
 
